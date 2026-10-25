@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33906816/README.md)
 # AWSD+++
 
 把安卓手机投到电脑屏幕上，用真实的键盘鼠标玩手机游戏。
@@ -67,5 +66,7 @@ Windows Raw Input 给的是硬件原始位移（`MOUSE_MOVE`），没有系统�
 - 数据线不能是仅充电的（四线雷电/编织短线），插上手机必须弹"文件传输"才合格
 - 鸿蒙 NEXT 不支持，那套协议栈和 adb 不一样
 - 部分游戏反作弊可能查触控注入，自己判断
+- 有些鼠标不支持 Raw Input 实测经常被卡
+- 帧率最好情况只能跑60FPS 适合元神光遇
 
 MIT License
